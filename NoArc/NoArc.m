@@ -18,5 +18,10 @@
     return self;
 }
 
+- (void)dealloc {
+    [someStuff release];
+    [super dealloc];
+}
+
 
 @end
