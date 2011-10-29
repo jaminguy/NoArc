@@ -3,7 +3,7 @@
 //  NoArc
 //
 //  Created by Jamin Guy on 10/29/11.
-//  Copyright (c) 2011 Griffin Technology. All rights reserved.
+//  Copyright (c) 2011 Jamin Guy
 //
 
 #import "AppDelegate.h"
