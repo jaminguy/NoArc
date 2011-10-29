@@ -16,6 +16,7 @@
 		24CF7FA9145C525D003914FD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF7FA7145C525D003914FD /* MainStoryboard_iPhone.storyboard */; };
 		24CF7FAC145C525D003914FD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF7FAA145C525D003914FD /* MainStoryboard_iPad.storyboard */; };
 		24CF7FAF145C525D003914FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF7FAE145C525D003914FD /* ViewController.m */; };
+		24CF7FB7145C5276003914FD /* NoArc.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF7FB6145C5276003914FD /* NoArc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		24CF7F95145C525D003914FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24CF7F97145C525D003914FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24CF7F99145C525D003914FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24CF7F9D145C525D003914FD /* NoArc-Info.plist */ = {isa = PBXFileReference; path = "NoArc-Info.plist"; sourceTree = "<group>"; };
+		24CF7F9D145C525D003914FD /* NoArc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoArc-Info.plist"; sourceTree = "<group>"; };
 		24CF7F9F145C525D003914FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24CF7FA1145C525D003914FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24CF7FA3145C525D003914FD /* NoArc-Prefix.pch */ = {isa = PBXFileReference; path = "NoArc-Prefix.pch"; sourceTree = "<group>"; };
-		24CF7FA4145C525D003914FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24CF7FA3145C525D003914FD /* NoArc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoArc-Prefix.pch"; sourceTree = "<group>"; };
+		24CF7FA4145C525D003914FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24CF7FA5145C525D003914FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24CF7FA8145C525D003914FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		24CF7FAB145C525D003914FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		24CF7FAD145C525D003914FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		24CF7FAD145C525D003914FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24CF7FAE145C525D003914FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24CF7FB5145C5276003914FD /* NoArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoArc.h; sourceTree = "<group>"; };
+		24CF7FB6145C5276003914FD /* NoArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoArc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				24CF7FAA145C525D003914FD /* MainStoryboard_iPad.storyboard */,
 				24CF7FAD145C525D003914FD /* ViewController.h */,
 				24CF7FAE145C525D003914FD /* ViewController.m */,
+				24CF7FB5145C5276003914FD /* NoArc.h */,
+				24CF7FB6145C5276003914FD /* NoArc.m */,
 				24CF7F9C145C525D003914FD /* Supporting Files */,
 			);
 			path = NoArc;
@@ -168,6 +173,7 @@
 				24CF7FA2145C525D003914FD /* main.m in Sources */,
 				24CF7FA6145C525D003914FD /* AppDelegate.m in Sources */,
 				24CF7FAF145C525D003914FD /* ViewController.m in Sources */,
+				24CF7FB7145C5276003914FD /* NoArc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
